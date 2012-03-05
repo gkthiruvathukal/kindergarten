@@ -1,0 +1,37 @@
+\documentclass[10pt,landscape,letterpaper]{article}
+
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1cm,bmargin=1cm,lmargin=1cm,rmargin=1cm}
+\pagestyle{empty}
+\usepackage{dashrule}
+\usepackage{forloop}
+
+\makeatother
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+{\bf Name\ \underline{\hskip 200pt}\hskip 200pt}{\bf Date\
+\underline{\hskip 150pt}}
+
+\vskip 1cm
+
+\newcounter{ct}
+\forloop{ct}{1}{\value{ct} < 9}
+{
+\vskip 10pt
+\rule[1.75ex]{10in}{1pt}
+\\
+\hdashrule{10.25in}{1pt}{4mm}
+\\
+\rule[-1.75ex]{10in}{1pt}
+\\
+}
+
+\vskip 1cm
+
+http://github.com/gkthiruvathukal/kindergarten
+
+\end{document}

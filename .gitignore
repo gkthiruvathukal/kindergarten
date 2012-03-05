@@ -1,0 +1,12 @@
+Thumbs.db
+.DS_Store
+bin/
+_build/
+*.pyc
+*.exe
+*.dll
+*.pidb
+*.userprefs
+*.log
+*.aux
+*.pdf
