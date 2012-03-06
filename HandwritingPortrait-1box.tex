@@ -1,0 +1,51 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1cm,bmargin=1cm,lmargin=1cm,rmargin=1cm}
+\pagestyle{empty}
+\usepackage{dashrule}
+\usepackage{forloop}
+\usepackage{tikz}
+
+\makeatother
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+{\bf Name\ \underline{\hskip 200pt}\hskip 130pt}{\bf Date\
+\underline{\hskip 150pt}}
+
+\vskip 1cm
+
+
+\begin{minipage}{8cm}
+\begin{tikzpicture}
+%\draw (-1.5,0) -- (1.5,0);
+%\draw (0,-1.5) -- (0,1.5);
+%\draw (0,0) circle (.8cm);
+\draw (0,0) rectangle (19,8);
+%\draw[gray] (-.5,-.5) parabola (1,1);
+\end{tikzpicture}
+\end{minipage}
+
+\vskip 1cm
+
+\newcounter{ct}
+\forloop{ct}{1}{\value{ct} < 8}
+{
+\vskip 10pt
+\rule[1.75ex]{7.5in}{1pt}
+\\
+\hdashrule{7.75in}{1pt}{4mm}
+\\
+\rule[-1.75ex]{7.5in}{1pt}
+\\
+}
+
+\vfill
+https://github.com/gkthiruvathukal/kindergarten
+
+
+\end{document}
